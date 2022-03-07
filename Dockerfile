@@ -1,4 +1,4 @@
-FROM redis:6-alpine
+FROM redis:5-alpine
 
 COPY redis.conf .
 
